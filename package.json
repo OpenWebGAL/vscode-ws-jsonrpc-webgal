@@ -1,6 +1,6 @@
 {
   "name": "vscode-ws-jsonrpc-webgal",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "VSCode JSON RPC over WebSocket",
   "author": "TypeFox GmbH (http://www.typefox.io)",
   "license": "MIT",
@@ -11,7 +11,8 @@
   "bugs": {
     "url": "https://github.com/TypeFox/vscode-ws-jsonrpc/issues"
   },
-  "main": "./build/index.js",
+  "main": "./build/cjs/index.js",
+  "module": "./build/index.js",
   "typings": "./build/index",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^23.0.2",
